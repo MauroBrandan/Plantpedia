@@ -1,6 +1,6 @@
-import Error from 'next/error'
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next'
 import { getAuthorList } from '@api'
+import Error from '../_error'
 
 export const getServerSideProps: GetServerSideProps<{
   error: number
